@@ -1,0 +1,20 @@
+[project]
+name = "qrpa"
+version = "0.1.0"
+description = "fluent qa rpa project"
+authors = [
+    {name = "fluentqa", email = "fluentqa@163.com"},
+]
+dependencies = [
+    "camelot>=12.6.29",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
