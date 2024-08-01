@@ -6,7 +6,9 @@ authors = [
     {name = "fluentqa", email = "fluentqa@163.com"},
 ]
 dependencies = [
-    "camelot>=12.6.29",
+    "pandas>=2.2.2",
+    "tabula-py>=2.9.3",
+    "pytest>=8.3.2",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -18,3 +20,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.3.2",
+]
